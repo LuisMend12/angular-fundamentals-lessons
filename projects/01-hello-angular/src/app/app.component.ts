@@ -11,9 +11,13 @@ import { RouterOutlet } from '@angular/router';
     <p>Things have worked out well! 🎉</p>
     <ol>
       <li>ETA - NewJeans</li>
-      
+      <li>Ready Player One </li>
+      <li>DogdeBall</li>
     </ol>
   `,
-  styles: ``,
+  styles: `
+  ol {
+    list-style-type: upper-roman;
+  }`,
 })
 export class AppComponent {}
