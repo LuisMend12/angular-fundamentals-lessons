@@ -49,7 +49,7 @@ import { AccountInfo } from './account-info';
 export class AppComponent {
   account: AccountInfo = {
     name: 'Melisa Evan',
-    membershipStatus: 'gold',
+    membershipStatus: 'silver',
     validThru: '12/2022',
     CVV: '123',
   };
