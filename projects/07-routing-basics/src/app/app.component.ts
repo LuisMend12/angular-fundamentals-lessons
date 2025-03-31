@@ -8,7 +8,9 @@ import { RouterModule } from '@angular/router';
   imports: [CommonModule, RouterModule],
   template: ` 
   <h1>Enable routing to see the greeting below</h1> 
+  <section style="border: solid 1px red">
   <router-outlet />
+  </section>
   `,
   styles: [],
 })
